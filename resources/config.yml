@@ -1,0 +1,10 @@
+# Время ожидания ответа
+# Response time
+timeout: 5
+
+# Время установки соединения
+# Connection setup time
+connection_timeout: 10
+
+# (по истечению времени запрос будет отменён, а в качестве ответа при запросе вернет FALSE)
+# (once the request expires, the time will be canceled and return FALSE as a response to the request)

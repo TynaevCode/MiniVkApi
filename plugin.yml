@@ -1,0 +1,7 @@
+name: MiniVkApi
+description: "A plugin for your MCPE/BE server that allows you to easily work with VkAPI."
+version: 0.9
+api:
+  - 3.0.0
+  - 5.0.0
+main: MiniVkApi\Main
