@@ -20,7 +20,7 @@ class VkApiClient {
     public $lang;
     
     /**
-     * Создание объекта VkApiClient
+     * Creating a VkApiClient object
      * @param string $token
      * @param string $api_ver
      * @param string $lang
@@ -32,7 +32,7 @@ class VkApiClient {
     }
     
     /**
-     * Изменить токен
+     * Change token
      * @param string $token
      */
     public function setToken(string $token) : void {
@@ -40,7 +40,7 @@ class VkApiClient {
     }
     
     /**
-     * Изменить версию VkAPI
+     * Change VkAPI version
      * @param string $api_ver
      */
     public function setApiVersion(string $api_ver) : void {
@@ -48,7 +48,7 @@ class VkApiClient {
     }
     
     /**
-     * Изменить язык
+     * Change language
      * @param string $lang
      */
     public function setLanguage(string $lang) : void {
@@ -56,7 +56,7 @@ class VkApiClient {
     }
     
     /**
-     * Выполнить запрос VkAPI
+     * Execute VkAPI request
      * @param string $method
      * @param mixed[] $params
      * @return mixed
