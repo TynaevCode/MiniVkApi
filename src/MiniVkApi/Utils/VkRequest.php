@@ -55,7 +55,6 @@ class VkRequest {
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT_MS, (int) Main::$con_timeout * 1000);
         $result = curl_exec($ch);
         curl_close($ch);
-        var_dump($result);
         return json_decode($result, true);
     }
     
