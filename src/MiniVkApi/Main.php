@@ -19,7 +19,7 @@ class Main extends PluginBase {
     }
     
     /**
-     * Создание нового VkApiClient
+     * Creating a new VkApiClient object
      * @param string $token
      * @return VkApiClient
      */
