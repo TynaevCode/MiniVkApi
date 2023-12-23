@@ -5,7 +5,7 @@ namespace MiniVkApi\Utils;
 class VKLanguages {
     
     /*
-    Поддерживаемые языки VkAPI
+    Supported VkAPI languages
     */
     public const RUSSIAN = "ru";
     public const UKRAINIAN = "ua";
