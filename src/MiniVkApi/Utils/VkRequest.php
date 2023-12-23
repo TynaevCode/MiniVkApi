@@ -16,7 +16,7 @@ class VkRequest {
     public $lang;
     
     /**
-     * Создание объекта VkRequest
+     * Creating a VkRequest object
      * @param string $method
      * @param mixed[] $params
      * @param string $token
@@ -33,7 +33,7 @@ class VkRequest {
     }
     
     /**
-     * Узнать  какой метод был использован
+     * Get the method that was used
      * @return string
      */
     public function getMethod() : string {
@@ -41,7 +41,7 @@ class VkRequest {
     }
     
     /**
-     * Узнать какие параметры были переданы
+     * Get passed parameters
      * @return mixed[]
      */
     public function getParams() : array {
