@@ -10,7 +10,7 @@
   - [Example of using VkAPI methods](examples/ExampleRequest.md)
 
 ## Installation 📥
-MiniVkApi can be installed as a regular plugin or as an extended library for different plugins.
+MiniVkApi can be installed as a [regular plugin](https://github.com/TynaevCode/MiniVkApi/releases/download/v0.9-beta/MiniVkApi.phar) or as an extended library for different plugins.
 
 ## Restrictions 🔒
 We would not say that MiniVkApi has limitations, but the project will still develop. Besides, no one is stopping you from forking this repository ;)
